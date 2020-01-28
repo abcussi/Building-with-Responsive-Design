@@ -61,6 +61,46 @@
   color: black;
 }
 
+.mobile-nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#logo {
+ padding: 10px;
+ background: linear-gradient(to bottom right,#c09,#f42 85%);
+ height: 48px;
+ width: 106px;
+}
+
+#logo img {   
+  height: 16px;
+  width: 66px;
+  margin-left: 10px;
+}
+
+.mobile-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobile-btn a{
+  border-left: solid 1px rgba(0, 0, 0, 0.068);
+}
+
+#search-btn {
+  /* display: inline-block; */
+  width: 48px;
+  height: 100%;
+}
+#more-btn {
+  /* display: inline-block; */
+  width: 48px;
+  height: 100%;
+}
+
 .ticket_notification {
   padding: 10px 20px;
   background-color: #fd3;
@@ -116,6 +156,13 @@ main {
 }
 
 @media screen and (max-width : 767px) {
+
+  #first-nav {
+    display: none;
+  }
+  #second-nav {
+    display: none;
+  }
 
   #hero_articles {
     height: 500px;

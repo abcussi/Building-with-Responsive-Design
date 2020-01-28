@@ -181,11 +181,31 @@ main {
 }
 
 .overlay_background .article_wrapper {
-  background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.89));
+  background-image: linear-gradient(rgba(255, 255, 255, 0),rgb(0, 0, 0));
 }
 
 .article_wrapper {
   height: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 15px;
+  line-height: 20px;
+}
+
+.long-article-section .article_wrapper span{
+  font-size: 12px;
+}
+
+.long-article-section .article_wrapper h4{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.long-article-section .article_wrapper p{
+  font-size: 10px;
+  color: #AAA;
 }
 
 #hero_articles .main_article {
@@ -403,10 +423,11 @@ padding-top: 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .long-article-section article {
-  width: calc(100% / 4 - 10px);
+  width: calc(100% / 3 - 10px);
 }
 
 
@@ -414,7 +435,14 @@ padding-top: 20px;
   height: 200px;
 }
 
-
+#story-1 {
+  width: 100%;
+  height: 275px;
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/Google-Drive-down-796x398.jpg");
+  background-size: 130% auto;
+  background-position: -50px 10px;
+  background-repeat: no-repeat;
+}
 
 
 

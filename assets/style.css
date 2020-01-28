@@ -62,7 +62,7 @@
 }
 
 .mobile-nav{
-  display: flex;
+  display: none;
   flex-direction: row;
   justify-content: space-between;
 }
@@ -142,8 +142,77 @@ main {
   height: 50%;
 }
 
+
+.right_wrapper article:nth-child(1) {
+  background: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/All-Formats-Lightcycle-Morph-796x402.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
 .right_wrapper article:nth-child(2) {
   margin-top: 5px;
+  background: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Off-Facebook-Activity-796x417.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.main_article {
+  background: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/ring-amazon-video-customer-796x431.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+#hero_articles article {
+  color: white;
+}
+
+#hero_articles article .article_wrapper{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: flex-end;
+}
+
+#hero_articles article h2 {
+  font-size: 50px;
+  line-height: 55px;
+  color: white;
+  font-weight: bold;
+}
+
+.overlay_background .article_wrapper {
+  background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.89));
+}
+
+.article_wrapper {
+  height: 100%;
+}
+
+#hero_articles .main_article {
+  position: relative;
+}
+
+#hero_articles .main_article .article_date {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-weight: 100;
+  font-size: 14px;
+}
+
+#hero_articles article .article_mini_info {
+  display: flex;
+  font-size: 12px;
+  color: rgba(241, 241, 241, 0.61); 
+}
+
+#hero_articles article .article_mini_info div {
+  margin-right: 10px;
+}
+
+#hero_articles .second_article h2{
+  font-size: 23px;
+  line-height: 29px;
 }
 
 @media screen and (max-width : 1023px) and (min-width : 768px) {
@@ -153,9 +222,20 @@ main {
     height: 350px;
   }
 
+
+
 }
 
 @media screen and (max-width : 767px) {
+
+  .mobile-nav{
+    display: flex;
+  }
+
+  .ticket_notification {
+    text-align: center;
+    font-size: 10px;
+  }
 
   #first-nav {
     display: none;
@@ -174,6 +254,7 @@ main {
 
   .main_wrapper {
     flex-direction: column;
+    padding: 0 7px;
   }
 
   .main_wrapper article {
@@ -187,12 +268,28 @@ main {
   .right_wrapper {
     width: 100%;
     height: calc(100% /3 *2);
+    margin-left: 0;
+    margin-right: 0;
+    width: auto;
   }
 
   .right_wrapper .second_article {
     width: 100%;
-    height: 50%;
-    
+    height: 50%; 
+  }
+
+  #hero_articles .main_article .article_date {
+    display: none;
+  }
+
+  #hero_articles article h2 {
+    font-size: 18px;
+    line-height: 25px;
   }
   
+  #hero_articles .second_article h2{
+    font-size: 18px;
+    line-height: 25px;
+  }
+
 }

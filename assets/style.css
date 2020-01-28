@@ -210,9 +210,118 @@ main {
   margin-right: 10px;
 }
 
-#hero_articles .second_article h2{
+#hero_articles .second_article h2 {
   font-size: 23px;
   line-height: 29px;
+}
+
+#latest-news {
+  padding: 70px 150px 0 150px;
+}
+
+.flex-container {
+padding-top: 20px;
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-items: top;
+}
+.flex-container article {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+.article-img a{
+  display:flex;
+  width:90%;
+  height: 100px;
+  background-size: 100% auto;
+}
+
+.article-text p{
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.article-text span{
+  font-size: 12px;
+  color: #AAA;
+}
+
+.article-text p:hover {
+  color: red;
+  text-decoration: underline rgba(228, 41, 41, 0.233);
+}
+
+.img-1 {
+  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Atari-Hotel-796x417.jpg');
+}
+
+.img-2 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/05/artificial-intelligence-hed-516x270.jpg");
+}
+
+.img-3 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Bitcoin.-516x270.jpg");
+}
+
+.img-4 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/speeding-ticket-flash-walter-arnold-ticket-car-motoring-uk-police-bicycle-fine-477x270.png");
+}
+
+.img-5 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/1-18-516x270.jpg");
+}
+
+.img-6 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/header-image-tim-cook-EU-fight-516x270.png");
+}
+
+.img-7 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/IeGUWSb-540x270.jpg");
+}
+
+.img-8 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/1-17-516x270.jpg");
+}
+
+.funding{
+  padding: 70px 150px 0 150px;
+}
+
+.flex-funding {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.flex-funding h2 {
+  font-weight: bold;
+  color: #f42;
+  cursor: pointer;
+}
+
+.flex-funding h2:hover{
+  color: black;
+}
+
+.flex-funding li {
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #f42;
+  cursor: pointer;
+}
+
+.flex-funding li:hover{
+  color: black;
+}
+
+.flex-funding li:nth-child(2) {
+  border-right: 1px solid rgba(255, 0, 0);
+  border-left: 1px solid rgba(255, 0, 0);
 }
 
 @media screen and (max-width : 1023px) and (min-width : 768px) {
@@ -221,8 +330,6 @@ main {
     margin-top: 2px;
     height: 350px;
   }
-
-
 
 }
 

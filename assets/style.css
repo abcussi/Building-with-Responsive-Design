@@ -115,7 +115,7 @@ main {
 
 #hero_articles {
   margin-top: 2px;
-  height: 400px;
+  height: 450px;
 }
 
 .main_wrapper {
@@ -323,6 +323,102 @@ padding-top: 20px;
   border-right: 1px solid rgba(255, 0, 0);
   border-left: 1px solid rgba(255, 0, 0);
 }
+
+.funding article {
+  position: relative;
+}
+
+.funding article img{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+.funding article h4 {
+  background-color: #f42;
+  margin: 0;
+  color: white;
+  font-weight: bold;
+  padding: 8px 0;
+  padding-left: 75px;
+  font-size: 18px;
+}
+
+.funding article .fund {
+  padding-left: 75px;
+  background-color: rgba(255,68,34,.08);
+}
+
+.funding article div h5 {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 0;
+  line-height: 12px;
+}
+
+.funding article div h6 {
+  font-size: 12px;
+  margin-top: 3px;
+  color: gray;
+  text-transform: uppercase;
+}
+
+.funding article .tags {
+  padding: 10px;
+  margin-top: -10px;
+  margin-right: -10px;
+  margin-left: -10px;
+  border-bottom: 1px solid rgba(255, 0, 0, 0.3);
+}
+
+.funding article .info {
+  background-color: rgba(255,68,34,0.04);
+  padding: 10px;
+}
+
+.funding article .info p {
+  font-size: 13px;
+  margin-top: 12px;
+}
+
+.funding article a {
+  font-size: 13px;
+  color: rgb(49, 49, 49);
+  display: block;
+  padding-top: 5px;
+}
+
+.funding .flex-container {
+  justify-content: space-between;
+}
+
+.funding .flex-container article {
+  width: calc(100% / 4 - 10px);
+}
+
+.long-article-section {
+  padding: 70px 150px 0 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.long-article-section article {
+  width: calc(100% / 4 - 10px);
+}
+
+
+.long-article-section article header {
+  height: 200px;
+}
+
+
+
+
+
+/*-------------------- MEDIA QUERIES -------------------------------- */
 
 @media screen and (max-width : 1023px) and (min-width : 768px) {
 

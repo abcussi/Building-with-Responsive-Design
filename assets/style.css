@@ -430,21 +430,126 @@ padding-top: 20px;
   width: calc(100% / 3 - 10px);
 }
 
-
-.long-article-section article header {
-  height: 200px;
-}
-
-#story-1 {
-  width: 100%;
-  height: 275px;
-  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/Google-Drive-down-796x398.jpg");
+.long-article-section article .header {
   background-size: 130% auto;
   background-position: -50px 10px;
   background-repeat: no-repeat;
+  width: 100%;
+  height: 275px;
+}
+
+#story-1 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/Google-Drive-down-796x398.jpg");
+}
+
+#story-2 {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Untitled-design44-368x276.png");
+}
+
+#story-3 {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-368x276.jpg");
+}
+
+#story-4 {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/GodfallTeaser04-368x276.png");
+}
+
+#story-5 {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/05/Google-Android-Developer-Options-368x276.jpg");
+}
+
+#story-6 {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/ring-amazon-video-customer-368x276.jpg");
+}
+
+.long-article-section article .latest {
+  display: flex;
+  flex-direction: row;
+  height: 90px;
+  background: rgba(255,68,34,.06);
+  color: red;
+}
+
+.long-article-section article .latest .latest_info {
+  padding: 10px;
+  font-weight: lighter;
+  width: 70%;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.long-article-section article .latest .latest_info .latest_tag {
+  display: block;
+}
+
+.long-article-section article .latest .latest_info .latest-title {
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 3px;
+}
+
+.long-article-section article .latest img {
+  display: block;
+  font-weight: lighter;
+  width: 30%;
+  margin-top: 2px;
+}
+
+.long-article-section article .other-articles {
+  margin: 10px;
+}
+
+.long-article-section article .other-articles li {
+  padding-bottom: 8px;
+  padding-top: 8px;
+  border-bottom: 1px solid rgba(20, 20, 20, 0.226);
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.671);
+}
+
+.long-article-section article .other-articles li:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.long-article-section article h3 {
+  color: red;
+}
+
+.columns-4 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: top;
+}
+
+.columns-4 article {
+  width: calc( 100% / 4 - 10px);
+  margin-top: 25px;
+}
+
+#deals {
+  padding: 70px 150px 0 150px;
 }
 
 
+#deals article img{
+  width: 100%;
+  height: auto;
+}
+
+#deals article h3 {
+  font-weight: bold;
+  margin-top: 5px;
+  font-size: 17px;
+  line-break: 18px;
+}
+
+#deals article .compared_price {
+  font-size: 12px;
+  color: gray;
+}
 
 /*-------------------- MEDIA QUERIES -------------------------------- */
 

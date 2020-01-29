@@ -1,6 +1,6 @@
-# Design Teardown
+# Building with Responsive Design
 
-> This project consists of building a heatmap of the Smashing magazine website
+> This project consists of replicating the https://thenextweb.com/ website putting emphasis on how it behaves differently depending on the size of the screen where the website is rendered.
 
 ![screenshot](./app_screenshot.png)
 
@@ -10,7 +10,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/xtrmdarc/Design-Teardown/ffb09065002f33d19d34d707cb0134a406462eb4/index.html)
+[Live Demo Link](https://rawcdn.githack.com/abcussi/Building-with-Responsive-Design/cb698e6dd30882c535b2a2410f44ee1a01e16f96/index.html)
 
 ## Author
 

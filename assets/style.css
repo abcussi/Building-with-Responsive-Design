@@ -140,7 +140,6 @@ main {
   height: 50%;
 }
 
-
 .right_wrapper article:nth-child(1) {
   background: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/All-Formats-Lightcycle-Morph-796x402.jpg');
   background-repeat: no-repeat;
@@ -234,22 +233,28 @@ main {
 }
 
 #latest-news {
-  padding: 70px 150px 0 150px;
+  padding: 70px 6% 0 6%;
 }
 
 .flex-container {
-padding-top: 20px;
- display: flex;
- flex-direction: row;
- flex-wrap: wrap;
- justify-content: center;
- align-items: top;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: top;
 }
+
+#latest-news article {
+  margin-top: 20px;
+}
+
 .flex-container article {
   display: flex;
   flex-direction: column;
-  width: 25%;
+  width: calc(100% / 4);
 }
+
 .article-img a{
   display:flex;
   width:90%;
@@ -305,7 +310,7 @@ padding-top: 20px;
 }
 
 .funding{
-  padding: 70px 150px 0 150px;
+  padding: 70px 6% 0 6%;
 }
 
 .flex-funding {
@@ -344,6 +349,7 @@ padding-top: 20px;
 
 .funding article {
   position: relative;
+  height: 2220px;
 }
 
 .funding article img{
@@ -394,6 +400,7 @@ padding-top: 20px;
 .funding article .info {
   background-color: rgba(255,68,34,0.04);
   padding: 10px;
+  height: 100%;
 }
 
 .funding article .info p {
@@ -417,7 +424,7 @@ padding-top: 20px;
 }
 
 .long-article-section {
-  padding: 70px 150px 0 150px;
+  padding: 70px 6% 0 6%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -528,7 +535,7 @@ padding-top: 20px;
 }
 
 #deals {
-  padding: 70px 150px 0 150px;
+  padding: 70px 6% 0 6%;
 }
 
 
@@ -630,6 +637,32 @@ padding-top: 20px;
     height: 350px;
   }
 
+  #hero_articles article h2 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  #hero_articles .second_article h2{
+    font-size: 18px;
+    line-height: 17px;
+  }
+
+  #hero_articles .second_article .article_mini_info {
+    font-size: 9px;
+  }
+
+  #hero_articles .second_article .article_topic {
+    display: none;
+  }
+
+  #hero_articles .second_article .article_mini_info div:nth-child(3) {
+    display: none;
+  }
+
+  .flex-container article {
+    width: calc(100% / 3);
+  }
+
 }
 
 @media screen and (max-width : 767px) {
@@ -690,12 +723,26 @@ padding-top: 20px;
 
   #hero_articles article h2 {
     font-size: 18px;
-    line-height: 25px;
+    line-height: 22px;
   }
   
   #hero_articles .second_article h2{
     font-size: 18px;
-    line-height: 25px;
+    line-height: 22px;
   }
 
+  .flex-container article {
+    width: 100%;
+    flex-direction: row;
+  }
+
+  .article-img a {
+    width: 80px;
+    height: 80px;
+  }
+
+  .flex-container article .article-text {
+    width: 70%;
+    margin-left: 15px;
+  }
 }

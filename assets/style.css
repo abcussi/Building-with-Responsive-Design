@@ -74,6 +74,10 @@
  width: 106px;
 }
 
+article:hover,i:hover {
+  cursor: pointer;
+}
+
 #logo img {   
   height: 16px;
   width: 66px;
@@ -93,10 +97,14 @@
 #search-btn {
   width: 48px;
   height: 100%;
+  padding: 13px;
+  padding-left: 17px;
 }
 #more-btn {
   width: 48px;
   height: 100%;
+  padding: 13px;
+  padding-left: 17px;
 }
 
 .ticket_notification {
@@ -234,7 +242,16 @@ main {
 
 #latest-news {
   padding: 70px 6% 0 6%;
-  
+}
+
+#latest-news h3 {
+  color: red;
+  font-weight: bold;
+}
+
+#latest-news h3:hover {
+  color: black;
+  cursor: pointer;
 }
 
 .flex-container {
@@ -449,23 +466,23 @@ main {
 }
 
 #story-2 {
-  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Untitled-design44-368x276.png");
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Untitled-design44-368x276.png");
 }
 
 #story-3 {
-  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-368x276.jpg");
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-368x276.jpg");
 }
 
 #story-4 {
-  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/GodfallTeaser04-368x276.png");
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/GodfallTeaser04-368x276.png");
 }
 
 #story-5 {
-  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/05/Google-Android-Developer-Options-368x276.jpg");
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/05/Google-Android-Developer-Options-368x276.jpg");
 }
 
 #story-6 {
-  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/ring-amazon-video-customer-368x276.jpg");
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/ring-amazon-video-customer-368x276.jpg");
 }
 
 .long-article-section article .latest {

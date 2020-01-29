@@ -34,7 +34,7 @@
   padding: 0 20px 0 20px;
   align-items: center;
   font-family: Shentox, sans-serif;
-  color: #AAA;
+  color: #aaa;
   height: 47px;
 }
 
@@ -212,7 +212,7 @@ main {
 
 .long-article-section .article_wrapper p {
   font-size: 10px;
-  color: #AAA;
+  color: #aaa;
 }
 
 #hero_articles .main_article {
@@ -289,7 +289,7 @@ main {
 
 .article-text span {
   font-size: 12px;
-  color: #AAA;
+  color: #aaa;
 }
 
 .article-text p:hover {
@@ -392,7 +392,7 @@ main {
 
 .funding article .fund {
   padding-left: 75px;
-  background-color: rgba(255, 68, 34, .08);
+  background-color: rgba(255, 68, 34, 0.08);
 }
 
 .funding article div h5 {
@@ -491,7 +491,7 @@ main {
   display: flex;
   flex-direction: row;
   height: 90px;
-  background: rgba(255, 68, 34, .06);
+  background: rgba(255, 68, 34, 0.06);
   color: red;
 }
 
@@ -550,7 +550,7 @@ main {
 }
 
 .columns-4 article {
-  width: calc( 100% / 4 - 10px);
+  width: calc(100% / 4 - 10px);
   margin-top: 25px;
 }
 
@@ -572,7 +572,7 @@ main {
 #deals article .compared_price {
   font-size: 12px;
   color: gray;
-  text-decoration:line-through;
+  text-decoration: line-through;
 }
 
 .end {
@@ -616,7 +616,7 @@ main {
 .end-list li {
   padding: 8px;
   list-style-type: none;
-  color: #AAA;
+  color: #aaa;
   font-size: 13px;
 }
 
@@ -636,7 +636,7 @@ main {
 }
 
 .copyrigth p {
-  color: #AAA;
+  color: #aaa;
 }
 
 .copyrigth b {
@@ -649,61 +649,73 @@ main {
   height: 100%;
 }
 
-/*-------------------- MEDIA QUERIES -------------------------------- */
+/* -------------------- MEDIA QUERIES -------------------------------- */
 
 @media screen and (max-width: 1023px) and (min-width: 768px) {
-  /* *{
-    min-width: 425px;
-  } */
   #hero_articles {
     margin-top: 2px;
     height: 350px;
   }
+
   #hero_articles article h2 {
     font-size: 30px;
     line-height: 30px;
   }
+
   #hero_articles .second_article h2 {
     font-size: 18px;
     line-height: 17px;
   }
+
   #hero_articles .second_article .article_mini_info {
     font-size: 9px;
   }
+
   #hero_articles .second_article .article_topic {
     display: none;
   }
+
   #hero_articles .second_article .article_mini_info div:nth-child(3) {
     display: none;
   }
+
   .flex-container article {
     width: calc(100% / 3);
   }
+
   #latest-news .flex-container {
     justify-content: left;
   }
+
   .funding .flex-funding {
     flex-direction: column;
   }
+
   .funding .flex-funding li {
     display: block;
   }
+
   .flex-funding li:nth-child(2) {
     border: none;
   }
+
   .funding .flex-container article:last-child {
     display: none;
   }
+
   .funding .flex-container article {
     width: calc(100% / 3 - 10px);
   }
+
   .long-article-section article {
     width: calc(100% / 2 - 10px);
   }
+
   .columns-4 article {
-    width: calc( 100% / 3 - 10px);
+    width: calc(100% / 3 - 10px);
     padding: 10px;
   }
+
   .columns-4 {
     justify-content: left;
   }
@@ -713,135 +725,166 @@ main {
   .mobile-nav {
     display: flex;
   }
+
   .ticket_notification {
     text-align: center;
     font-size: 10px;
   }
+
   #first-nav {
     display: none;
   }
+
   #second-nav {
     display: none;
   }
+
   #hero_articles {
     height: 500px;
   }
+
   .main_wrapper .main_article {
     width: 100%;
+    height: calc(100% / 3);
   }
+
   .main_wrapper {
     flex-direction: column;
     padding: 0 7px;
   }
+
   .main_wrapper article {
     margin-top: 4px !important;
   }
-  .main_wrapper .main_article {
-    height: calc(100% /3);
-  }
+
   .right_wrapper {
-    width: 100%;
-    height: calc(100% /3 *2);
+    height: calc(100% / 3 * 2);
     margin-left: 0;
     margin-right: 0;
     width: auto;
   }
+
   .right_wrapper .second_article {
     width: 100%;
     height: 50%;
   }
+
   #hero_articles .main_article .article_date {
     display: none;
   }
+
   #hero_articles article h2 {
     font-size: 18px;
     line-height: 22px;
   }
+
   #hero_articles .second_article h2 {
     font-size: 18px;
     line-height: 22px;
   }
+
   .flex-container article {
     width: 100%;
     flex-direction: row;
   }
+
   .article-img a {
     width: 80px;
     height: 80px;
   }
+
   .flex-container article .article-text {
     width: 70%;
     margin-left: 15px;
   }
+
   .funding .flex-funding {
     flex-direction: column;
   }
+
   .funding .flex-funding h2 {
     font-size: 30px;
   }
+
   .funding .flex-funding li {
     display: block;
     line-height: 30px;
   }
+
   .flex-funding li:nth-child(2) {
     border: none;
   }
+
   .funding .flex-container article {
     flex-direction: column;
     width: 100%;
     margin-bottom: 15px;
   }
+
   .long-article-section article {
     width: 100%;
   }
+
   .long-article-section article .header {
     height: 375px;
   }
+
   .long-article-section article .latest img {
     width: 20%;
     justify-content: space-between;
   }
+
   .long-article-section article .latest {
     justify-content: space-between;
   }
+
   .columns-4 article {
     display: flex;
     flex-direction: row;
     width: 100%;
   }
+
   #deals article img {
     width: 15%;
   }
+
   .info {
     display: flex;
     flex-direction: column;
     margin-left: 10px;
   }
+
   #deals article h3 {
     margin-top: 0;
     margin-bottom: 0;
   }
+
   #deals article .promo_price {
     font-size: 14px;
   }
+
   .social a {
     padding: 7px;
     margin: 7px;
   }
+
   .end-list li {
     padding: 4px;
     font-size: 11px;
   }
+
   .copyrigth {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
   }
+
   .copyrigth span {
     display: block;
     text-align: center;
   }
+
   .copyrigth span img {
     display: inline-block;
   }

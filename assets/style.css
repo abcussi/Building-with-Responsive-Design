@@ -234,6 +234,7 @@ main {
 
 #latest-news {
   padding: 70px 6% 0 6%;
+  
 }
 
 .flex-container {
@@ -349,7 +350,7 @@ main {
 
 .funding article {
   position: relative;
-  height: 2220px;
+  height: 220px;
 }
 
 .funding article img{
@@ -577,6 +578,7 @@ main {
   padding: 10px;
   margin: 10px;
 }
+
 .social a:hover {
   background-color: black;
   cursor: pointer;
@@ -632,6 +634,10 @@ main {
 
 @media screen and (max-width : 1023px) and (min-width : 768px) {
 
+  /* *{
+    min-width: 425px;
+  } */
+
   #hero_articles {
     margin-top: 2px;
     height: 350px;
@@ -663,6 +669,42 @@ main {
     width: calc(100% / 3);
   }
 
+  #latest-news .flex-container {
+    justify-content: left;
+  }
+
+  .funding .flex-funding {
+    flex-direction: column;
+  }
+
+  .funding .flex-funding li {
+    display: block;
+  }
+
+  .flex-funding li:nth-child(2) {
+    border: none;
+  }
+
+  .funding .flex-container article:last-child{
+    display: none;
+  }
+
+  .funding .flex-container article {
+    width: calc(100% / 3 - 10px);
+  }
+
+  .long-article-section article {
+    width: calc(100% / 2 - 10px);
+  }
+
+  .columns-4 article {
+    width: calc( 100% / 3 - 10px);
+    padding: 10px;
+  }
+
+  .columns-4 {
+    justify-content: left;
+  }
 }
 
 @media screen and (max-width : 767px) {
@@ -745,4 +787,91 @@ main {
     width: 70%;
     margin-left: 15px;
   }
+
+  .funding .flex-funding {
+    flex-direction: column;
+  }
+
+  .funding .flex-funding  h2{
+    font-size: 30px;
+  }
+
+  .funding .flex-funding li {
+    display: block;
+    line-height: 30px;
+  }
+
+  .flex-funding li:nth-child(2) {
+    border: none;
+  }
+
+  .funding .flex-container article{
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .long-article-section article{
+    width: 100%;
+  }
+
+  .long-article-section article .header {
+    height: 375px;
+  }
+
+  .long-article-section article .latest img {
+    width: 20%;
+    justify-content: space-between;
+  }
+
+  .long-article-section article .latest {
+    justify-content: space-between;
+  }
+
+  .columns-4 article {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  #deals article img{
+    width: 15%;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+  }
+
+  #deals article h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  #deals article .promo_price {
+    font-size: 14px;
+  }
+
+  .social a {
+    padding: 7px;
+    margin: 7px;
+  }
+  .end-list li {
+    padding: 4px;
+    font-size: 11px;
+  }
+  .copyrigth {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .copyrigth span{
+     display: block;
+     text-align: center;
+  }
+  .copyrigth span img{
+    display: inline-block;
+ }
 }

@@ -748,15 +748,15 @@ main {
   .tab-navs {
     padding-left: 106px;
   }
+  
+  .article_wrapper img {
+    visibility: hidden;
+  }
 }
 
 @media screen and (max-width: 781px) {
   .rigth-part {
     display: none;
-  }
-
-  .article_wrapper img {
-    visibility: hidden;
   }
 }
 

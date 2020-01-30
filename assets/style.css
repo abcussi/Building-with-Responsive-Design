@@ -667,6 +667,7 @@ main {
   top: 15px;
   left: 15px;
   width: 377px;
+  visibility: visible;
 }
 
 /* -------------------- MEDIA QUERIES -------------------------------- */
@@ -752,6 +753,10 @@ main {
 @media screen and (max-width: 781px) {
   .rigth-part {
     display: none;
+  }
+
+  .article_wrapper img {
+    visibility: hidden;
   }
 }
 
